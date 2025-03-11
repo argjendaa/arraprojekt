@@ -694,4 +694,37 @@ label.logo span
         width: 80%;
         margin: 20px auto;
     }
+.opsionet p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .opsionet h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .steps {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .step {
+        text-align: center;
+    }
+
+    .step-number {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .step h3 {
+        font-size: 14px;
+    }
+
+    .step p {
+        font-size: 12px;
+    }
 }
+
