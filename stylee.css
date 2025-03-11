@@ -507,6 +507,7 @@ label.logo span
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
     
 .step {
     position: relative;
@@ -556,6 +557,7 @@ label.logo span
 /*responsive*/
 
 
+/* Responsive Design for 1920x1080 Screens */
 /* Responsive Design for 1920x1080 Screens */
 @media screen and (min-width: 1920px) {
     body {
@@ -622,4 +624,74 @@ label.logo span
     }
 }
 
-/*responsive*/
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .navbar, .navbari-informues {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+    }
+
+    .foto img {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+        height: auto;
+    }
+
+    .about-content {
+        margin: 20px 0;
+    }
+
+    .numbers-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .foto-kompani img {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
